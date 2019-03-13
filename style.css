@@ -33,6 +33,30 @@
 }
 
 /*****************
+**** ACTIONBAR *****
+*****************/
+.form-zipcode {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-zipcode i {
+  color: white;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.form-zipcode input {
+  display: inline-block !important;
+  max-width: 240px;
+}
+
+.form-zipcode button {
+  margin-left: 5px;
+}
+
+
+/*****************
 **** BUTTONS *****
 *****************/
 .btn-theme-green {
@@ -43,13 +67,4 @@
 .btn-theme-green:hover {
   background-color: #80b13a;
   border-color: #80b13a;
-}
-
-input {
-  display: inline-block !important;
-  max-width: 60%;
-}
-
-button {
-  background-color: red
 }
