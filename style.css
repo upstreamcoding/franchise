@@ -4,6 +4,7 @@
 .hero--background-image {
   background-image:url(images/hero.jpg);
   background-size: cover;
+  background-position: center top;
   height: 400px;
   position: relative;
   width: auto;
