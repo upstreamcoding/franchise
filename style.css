@@ -56,7 +56,6 @@ nav .text-link-dark {
   background: rgba(0, 0, 0, .4);
   bottom: 0;
   color: white;
-  height: 70px;
   padding: 10px;
   position: absolute;
   width: 100%;
@@ -67,11 +66,9 @@ nav .text-link-dark {
   * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   */
   align-items: center;
-  display: flex;
-  justify-content: space-between;
 }
 
-.zipcode-column {
+.zipcode-column--form {
   text-align: right;
 }
 
@@ -83,10 +80,9 @@ nav .text-link-dark {
 **** ACTIONBAR *****
 *****************/
 .form-zipcode {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+
 }
+
 .form-zipcode i {
   color: white;
   margin-right: 10px;
