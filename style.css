@@ -60,6 +60,17 @@ h2 {
   margin-left: 5px;
 }
 
+/*****************
+**** LINKS *****
+*****************/
+.text-link-dark {
+  color: #343a40;
+  text-decoration: underline;
+}
+.text-link-dark:hover {
+  color: #343a40;
+  text-decoration: none;
+}
 
 /*****************
 **** BUTTONS *****
