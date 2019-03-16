@@ -11,6 +11,22 @@ Visible at: https://upstreamcoding.github.io/franchise/
 - Measure engagement on the website
 - Capture customer information
 
+## Font Icons
+
+- https://fontawesome.com/
+- Click "Start using"
+- Follow instructions in "Start a New Project" section
+- Search for "location" in the top Navbar's search bar
+- Click the icon "map-marker-alt"
+- Copy Markup by clicking `<i class="fas fa-map-marker-alt"></i>`
+- Use this in your website instead of image "location.png"
+- End result:
+```
+<div class="col-sm-3">
+  <i class="fas fa-map-marker-alt"></i> Tampa, FL
+</div>
+```
+
 ## Spacing
 Take a moment to review spacing utility classes
 - https://getbootstrap.com/docs/4.3/utilities/spacing/

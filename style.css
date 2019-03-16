@@ -71,8 +71,12 @@ nav .text-link-dark {
   justify-content: space-between;
 }
 
-.hero--action-bar .zipcode-column {
+.zipcode-column {
   text-align: right;
+}
+
+.zipcode-column i {
+  color: #8fc740;
 }
 
 /*****************
