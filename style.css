@@ -107,9 +107,23 @@
 }
 
 /************************
-**** Instagram ******
+****** Instagram ********
 ************************/
 
+/* :last-child
+*
+* https://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:last-child
+*
+*/
+.instagram-container .col:last-child {
+  padding-left: 0;
+}
+
+/* position:absolute
+*
+* https://developer.mozilla.org/en-US/docs/Web/CSS/position
+*
+*/
 .ig-logo {
   left: 10px;
   bottom: 10px;
