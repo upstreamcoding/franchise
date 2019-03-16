@@ -70,6 +70,19 @@
   border-color: #80b13a;
 }
 
+/* BTN LINK DARK */
+.btn-link-dark {
+  color: #343a40;
+  text-decoration: underline;
+}
+
+.btn-link-dark:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  text-decoration: none;
+}
+
 /**********************
 **** Featurettes ******
 ***********************/
