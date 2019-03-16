@@ -69,3 +69,36 @@
   background-color: #80b13a;
   border-color: #80b13a;
 }
+
+
+/**********************
+**** Featurettes ******
+***********************/
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/********************
+**** RESPONSIVE *****
+********************/
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
