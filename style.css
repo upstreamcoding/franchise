@@ -1,3 +1,7 @@
+h2 {
+  font-size: 2.5rem;
+}
+
 /********************
 ******* HERO ********
 *********************/
@@ -129,6 +133,28 @@
   bottom: 10px;
   position: absolute;
   width: 40px;
+}
+
+/************************
+****** Ratings ********
+************************/
+.ratings-subtext {
+  font-size: 2rem;
+}
+
+.ratings-logos a {
+  display: inline-block;
+  /*
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#Margin_and_Padding_Properties
+  */
+  margin: 2rem 2rem 0 0;
+}
+
+.ratings-logos a:last-child {
+  /*
+  * https://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:last-child
+  */
+  margin-right: 0;
 }
 
 /********************
