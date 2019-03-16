@@ -2,6 +2,44 @@ h2 {
   font-size: 2.5rem;
 }
 
+/*****************
+**** LINKS *****
+*****************/
+.text-link-dark {
+  color: #343a40;
+  text-decoration: underline;
+}
+.text-link-dark:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+/********************
+******* NAV ********
+*********************/
+
+nav .text-link-dark {
+  text-decoration: none;
+}
+
+.phone-number {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links a {
+  margin-right: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a:last-child {
+  margin-right: 0;
+}
+
 /********************
 ******* HERO ********
 *********************/
@@ -58,18 +96,6 @@ h2 {
 
 .form-zipcode button {
   margin-left: 5px;
-}
-
-/*****************
-**** LINKS *****
-*****************/
-.text-link-dark {
-  color: #343a40;
-  text-decoration: underline;
-}
-.text-link-dark:hover {
-  color: #343a40;
-  text-decoration: none;
 }
 
 /*****************
