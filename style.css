@@ -70,6 +70,17 @@
   border-color: #80b13a;
 }
 
+/* BLACK */
+.btn-theme-black {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-theme-black:hover {
+  background-color: rgba(0,0,0, .8);
+  border-color: rgba(0,0,0, .8);
+}
+
 
 /**********************
 **** Featurettes ******
