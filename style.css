@@ -14,6 +14,14 @@ h2 {
   text-decoration: none;
 }
 
+.text-link-white {
+  color: white;
+}
+.text-link-white:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /********************
 ******* NAV ********
 *********************/
@@ -200,6 +208,38 @@ nav .text-link-dark {
 .junk-we-remove--text {
   font-size: 1.5rem;
 }
+
+/*********************
+****** Footer ********
+**********************/
+footer {
+  color: white;
+  background-color: #231f20;
+}
+
+footer img {
+  height: 70px;
+}
+
+.navbar-footer {
+  display: block;
+}
+
+.navbar-footer a {
+  color: white;
+  margin-right: 10px;
+}
+
+.navbar-footer a:last-child {
+  color: white;
+  margin-right: 0;
+}
+
+.navbar-footer.navbar-footer--top a {
+  font-size: 1.25rem;
+}
+
+
 
 /********************
 **** RESPONSIVE *****
