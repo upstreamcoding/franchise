@@ -62,3 +62,18 @@ Margin & Padding (y-axis) Top & Bottom
 | --- | --- |
 | margin-top: .25rem; | padding-top: .25rem; |
 | margin-bottom: .25rem; | padding-bottom: .25rem; |
+
+
+## Forms
+
+
+Given form markup
+
+```html
+<input type="tel" name="phone" />
+```
+Get value via name attribute using jQuery:
+
+```javascript
+$('[name="phone"]').val();
+```
