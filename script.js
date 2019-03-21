@@ -3,6 +3,7 @@ function getZipcode(zipcode) {
 
   $('#modal--zipcode').val(zipcode); // id
   $('[name="customRadio"]').val(); // value of my radio group
+  $('[name="customRadio"]').val(); 
 }
 
 function submitForm(zipcode, email) {

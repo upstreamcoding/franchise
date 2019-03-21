@@ -287,7 +287,7 @@
             <div class="modal-body">
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" name="email" id="modal--email" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Zipcode</label>
@@ -295,35 +295,36 @@
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Phone</label>
-                <input type="tel" class="form-control" name="phone" id="modal--zipcode" placeholder="(555) 412-5151"/>
+                <input type="tel" class="form-control" name="phone" id="modal--phone" placeholder="(555) 412-5151"/>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Pickup Type</label>
-                <select class="form-control" id="exampleFormControlSelect1" name="type">
+                <select class="form-control" id="modal--type" name="type">
                   <option>Commercial</option>
                   <option>Residential</option>
                 </select>
               </div>
 
               <div class="form-group">
+                <label for="frequency">Pickup frequency</label>
                 <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" value="One-time">
-                  <label class="custom-control-label" for="customRadio1">One-time</label>
+                  <input type="radio" id="frequency--one-time" name="frequency" class="custom-control-input" value="One-time">
+                  <label class="custom-control-label" for="frequency--one-time">One-time</label>
                 </div>
                 <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" value="Bi-weekly">
-                  <label class="custom-control-label" for="customRadio2">Bi-weekly</label>
+                  <input type="radio" id="frequency--bi-weekly" name="frequency" class="custom-control-input" value="Bi-weekly">
+                  <label class="custom-control-label" for="frequency--bi-weekly">Bi-weekly</label>
                 </div>
               </div>
 
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Additional Notes:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="notes"></textarea>
+                <textarea class="form-control" id="notes" rows="3" name="notes"></textarea>
               </div>
 
               <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Sign me up for G.I.HAUL newsletter</label>
+                <input type="checkbox" class="custom-control-input" id="modal--newsletter">
+                <label class="custom-control-label" for="modal--newsletter" name="newsletter">Sign me up for G.I.HAUL newsletter</label>
               </div>
             </div>
             <!-- modal footer -->
