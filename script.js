@@ -3,12 +3,17 @@ function getZipcode(zipcode) {
 
   $('#modal--zipcode').val(zipcode); // id
   $('[name="customRadio"]').val(); // value of my radio group
-  $('[name="customRadio"]').val(); 
+  $('[name="customRadio"]').val();
 }
 
-function submitForm(zipcode, email) {
-  console.log(zipcode, email);
+function submitForm(email, zipcode, phone, type, frequency, notes, newsletter) {
   console.log(email);
+  console.log(zipcode);
+  console.log(phone);
+  console.log(type);
+  console.log(frequency);
+  console.log(notes);
+  console.log(newsletter);
 }
 
 $(document).ready(function() {
@@ -21,9 +26,21 @@ $(document).ready(function() {
    });
 
    $('#submit-btn').click(function(){
-     var zipcode = $('#zipcode').val();
+     // Email
      var email = $('[name="email"]').val();
+     // zipcode
+     var zipcode = $('[name="zipcode"]').val();
+     // phone
+     var phone = $('[name="phone"]').val();
+     // pickup type
+     var type = $('[name="type"]').val();
+     // frequency
+     var frequency = $('[name="frequency"]').val();
+     // Notes
+     var notes = $('[name="notes"]').val();
+     // newsletter
+     var newsletter = $('[name="newsletter"]').val();
 
-     submitForm(zipcode, email);
+     submitForm(email, zipcode, phone, type, frequency, notes, newsletter);
    });
 });
