@@ -1,46 +1,37 @@
 function getZipcode(zipcode) {
   console.log(zipcode);
 
-  $('#modal--zipcode').val(zipcode); // id
-  $('[name="customRadio"]').val(); // value of my radio group
-  $('[name="customRadio"]').val();
+  $('#modal--zipcode').val(zipcode); // <input id="modal--zipcode" />
 }
 
-function submitForm(email, zipcode, phone, type, frequency, notes, newsletter) {
-  console.log(email);
-  console.log(zipcode);
-  console.log(phone);
-  console.log(type);
-  console.log(frequency);
-  console.log(notes);
-  console.log(newsletter);
+function formSubmit(name) {
+  var serializedData = $(document.forms[name]).serializeObject();
+  // Open Google Sheet > Tools > Script Editor > Publish > Deploy as web app...
+  var url = 'https://script.google.com/...';
+
+  // ajax documentation:  https://api.jquery.com/jQuery.ajax/
+  var jqxhr = $.ajax({
+    url,
+    method: "GET",
+    dataType: "json",
+    data: serializedData,
+    success: function(data){
+      console.log('success', data);
+    }
+  });
 }
 
 $(document).ready(function() {
    // Event Handlers
-   $('#go-btn').click(function(){
-     var zipcode = $('#zipcode').val();
-     var email = $('[name="email"]').val();
+   $('#form--quote').submit(function(e){
+     e.preventDefault(); // prevents the browser from reloading
 
-     getZipcode(zipcode);
+     formSubmit(e.currentTarget.name);
    });
 
-   $('#submit-btn').click(function(){
-     // Email
-     var email = $('[name="email"]').val();
-     // zipcode
-     var zipcode = $('[name="zipcode"]').val();
-     // phone
-     var phone = $('[name="phone"]').val();
-     // pickup type
-     var type = $('[name="type"]').val();
-     // frequency
-     var frequency = $('[name="frequency"]').val();
-     // Notes
-     var notes = $('[name="notes"]').val();
-     // newsletter
-     var newsletter = $('[name="newsletter"]').val();
+   $('#go-btn').click(function(){
+     var zipcode = $('#zipcode').val();
 
-     submitForm(email, zipcode, phone, type, frequency, notes, newsletter);
+     getZipcode(zipcode);
    });
 });
