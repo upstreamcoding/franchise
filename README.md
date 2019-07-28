@@ -1,3 +1,3 @@
 # franchise
 
-[site link](https://theonesean.github.io/franchies/)
+[site link](https://upstreamcoding.github.io/franchise/)
